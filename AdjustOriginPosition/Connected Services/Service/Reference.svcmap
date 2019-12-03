@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1e94fd71-d1bc-4c06-afbb-bf3aee7fb9ce" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:15144/APAS/USRCI/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="47ad4063-7378-46c9-a947-6c6748b8d9f2" SourceId="1" SourceUrl="net.tcp://localhost:15144/APAS/USRCI/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="ca951733-4f5c-447b-b677-4c3a5697c16d" SourceId="1" SourceUrl="net.tcp://localhost:15144/APAS/USRCI/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="44eab14d-52cd-4d71-b637-f5a8158dba63" SourceId="1" SourceUrl="net.tcp://localhost:15144/APAS/USRCI/mex" />
+    <MetadataFile FileName="System.Drawing.xsd" MetadataType="Schema" ID="701e9e04-0d13-4357-b012-0157473f5034" SourceId="1" SourceUrl="net.tcp://localhost:15144/APAS/USRCI/mex" />
+    <MetadataFile FileName="SystemServiceContract.Core.xsd" MetadataType="Schema" ID="5024940c-7d5d-4ce0-b335-03fe2d0e4573" SourceId="1" SourceUrl="net.tcp://localhost:15144/APAS/USRCI/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
